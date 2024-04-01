@@ -11,11 +11,11 @@ public class Email {
     }
 
     public String getEmailId() {
-        return emailId;
+        return this.emailId;
     }
 
     public String getPassword() {
-        return password;
+        return this.password;
     }
 
     public void changePassword(String oldPassword, String newPassword){
